@@ -27,7 +27,7 @@ a {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .header p {
@@ -49,10 +49,10 @@ a {
 
 .hero {
     display: flex;
-    padding: 50px 0px;
+    padding: 50px 100px;
     gap: 10px;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .left {
