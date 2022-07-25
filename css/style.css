@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 div {
-    /* border: 1px red solid;   */
+    border: 1px red solid;  
 }
 
 body {
     font-family: Roboto, sans-serif;
+}
+
+a {
+    color:#F9FAF8;
+    text-decoration: none;
 }
 
 .top,
@@ -46,6 +51,8 @@ body {
     display: flex;
     padding: 50px 0px;
     gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .left {
@@ -80,18 +87,10 @@ body {
 }
 
 
-.right {
-    background-color: gray;
-    color:#E5E7EB;
-    width: 400px;
-    height: auto;
-    margin-left: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
+.hero img {
+    height: 350px;
+    width: 500px;
 }
-
 
 
 
@@ -114,6 +113,7 @@ body {
     display: flex;
     gap: 48px;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -123,10 +123,16 @@ body {
 }
 
 .box {
+    /* border-radius: 8px; */
+    height: 200px;
+    width: 200px;    
+}
+
+.box img {
     border: 3px #3882f6 solid;
     border-radius: 8px;
     height: 200px;
-    width: 200px;    
+    width: 200px;
 }
 
 .subtext {
